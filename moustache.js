@@ -26,7 +26,7 @@ function gotPoses(results){
 }
 function draw(){
     image(video, 0, 0, 300, 300);
-    image(moustache, noseX, noseY, 30, 30);
+    image(moustache, noseX-15, noseY, 30, 30);
 }
 function take_snapshot(){
     save('Rishabh.png');
